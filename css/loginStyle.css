@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(47, 149, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+form {
+    padding: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.39);
+    width: 30%;
+}
+
+h1 {
+    background-color: rgb(2, 97, 192);
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.login {
+    padding: 10px;
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: dodgerblue;
+    color: dodgerblue;
+    font-size: 12px;
+    margin: 0px;
+    margin-left: 8px;
+    font-weight: 700;
+}
+
+input {
+    margin: 4px;
+    font-size: 15px;
+    color: dodgerblue;
+    outline: 0;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 4px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+input:focus {
+    border: 1px solid rgb(180, 180, 180);
+    box-shadow: 0 0 0 3px rgba(30, 143, 255, 0.322);
+}
+
+.btn {
+    background-color: rgb(2, 97, 192);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 7px;
+    margin-top: 7px;
+}
+
+@media only screen and (min-width:280px) and (max-width:490px) {
+    form {
+        width: 57%;
+        margin: 0px;
+        padding: 0px;
+        left: 50.6%;
+    }
+    input {
+        width: 90%;
+        display: block;
+    }
+    .btn {
+        width: 96%;
+    }
+    body {
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:1290px) {
+    form {
+        width: 36%;
+        margin: 0px;
+        padding: 0px;
+        left: 50.6%;
+    }
+    input {
+        width: 94%;
+        display: block;
+    }
+    .btn {
+        width: 98%;
+    }
+    body {
+        align-items: center;
+    }
+}
